@@ -4,3 +4,19 @@ inspos
 2. https://preview.themeforest.net/item/gavi-personal-portfolio-resume-html/full_screen_preview/48150243?_ga=2.126440334.2095267862.1726566184-1331603578.1726566184
 3. https://preview.themeforest.net/item/breezycv-resume-cv-template/full_screen_preview/26081195?_ga=2.126440334.2095267862.1726566184-1331603578.1726566184
 4. https://lmpixels.com/demo/breezycv/darkfw/1/index.html#resume
+
+
+colors:
+primary: #F97316 or #04B4E0 (light- #0D86A4)
+background: dark / #000
+
+icons:
+linearicons.com
+materialicons
+iconmoon
+
+animations
+animista.net
+
+illustrations:
+undraw.co

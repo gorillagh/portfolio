@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albert Nartey</title>
-    <link rel="stylesheet" href="./styles/globals.css">
-</head>
-<body>
-    <!-- ------Side bar---- -->
-     <section class="side-bar"></section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Vertical Navbar -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#blog" class="nav-link">Blog</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
 
-     <!-- ----Middle Section-- -->
+      <!-- Brief Section -->
+      <div class="brief">
+        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic" />
+        <h1>Albert Nartey</h1>
+        <p>Full Stack Developer</p>
+        <div class="socials">
+          <!-- Add social icons here -->
+        </div>
+        <a href="cv.pdf" class="download-btn" download>Download CV</a>
+      </div>
 
-     <!-- ----Right Section-- -->
-
-</body>
+      <!-- Right Section -->
+      <div class="content">
+        <section id="home" class="section">Home Content</section>
+        <section id="about" class="section">About Me Content</section>
+        <section id="resume" class="section">Resume Content</section>
+        <section id="portfolio" class="section">Portfolio Content</section>
+        <section id="blog" class="section">Blog Content</section>
+        <section id="contact" class="section">Contact Content</section>
+      </div>
+    </div>
+  </body>
 </html>
