@@ -2,8 +2,7 @@ inspos
 
 1. https://preview.themeforest.net/item/portify-personal-portfolio-html-template/full_screen_preview/53256634?_ga=2.133914381.2095267862.1726566184-1331603578.1726566184
 2. https://preview.themeforest.net/item/gavi-personal-portfolio-resume-html/full_screen_preview/48150243?_ga=2.126440334.2095267862.1726566184-1331603578.1726566184
-3. https://preview.themeforest.net/item/breezycv-resume-cv-template/full_screen_preview/26081195?_ga=2.126440334.2095267862.1726566184-1331603578.1726566184
-4. https://lmpixels.com/demo/breezycv/darkfw/1/index.html#resume
+4. https://lmpixels.com/demo/breezycv/darkfw/1/index.html#home
 
 
 colors:

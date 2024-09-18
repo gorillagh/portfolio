@@ -3,15 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Albert Nartey - Portfolio</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/styles/globals.css" />
+    <link rel="stylesheet" href="./assets/styles/about.css" />
+    <link rel="stylesheet" href="./assets/styles/contact.css" />
     <script src="./index.js" defer></script>
   </head>
   <body>
@@ -35,7 +62,7 @@
             <a href="#home"><i class="fa-solid fa-briefcase"></i></a>
             <a href="#portfolio" class="nav-link">Portfolio</a>
           </div>
-        
+
           <div class="nav-item">
             <a href="#home"><i class="fa-solid fa-envelope"></i></a>
             <a href="#contact" class="nav-link">Contact</a>
@@ -45,31 +72,38 @@
 
       <!-- Brief Section -->
       <div class="brief">
-        
-        <img src="./assets/images/profile.jpg" alt="Profile Picture" class="profile-pic" />
-        <div class="brief-text">
-        <h1 class="brief-title">Albert Narh Nartey</h1>
-        <h5 class="brief-description">Full Stack Developer</h5>
-        <div class="brief-socials">
-          <a href="/"><i class="fa-brands fa-stack-overflow"></i></a>
-          <a href="/"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="/"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="/"><i class="fa-brands fa-github"></i></a>
-          <!-- <i class="fa-brands fa-youtube"></i> -->
-          <!-- <i class="fa-brands fa-reddit"></i> -->
-          <!-- <i class="fa-brands fa-medium"></i> -->
-          <!-- <i class="fa-brands fa-instagram"></i> -->
-          <!-- <i class="fa-brands fa-dev"></i> -->
+        <img
+          data-aos="zoom-in"
+          src="./assets/images/profile.jpg"
+          alt="Profile Picture"
+          class="profile-pic"
+        />
+        <div data-aos="zoom-in" class="brief-text">
+          <h1 class="brief-title">Albert Narh Nartey</h1>
+          <h5 class="brief-description">Full Stack Developer</h5>
+          <div class="brief-socials">
+            <a href="/"><i class="fa-brands fa-stack-overflow"></i></a>
+            <a href="/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="/"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="/"><i class="fa-brands fa-github"></i></a>
+            <!-- <i class="fa-brands fa-youtube"></i> -->
+            <!-- <i class="fa-brands fa-reddit"></i> -->
+            <!-- <i class="fa-brands fa-medium"></i> -->
+            <!-- <i class="fa-brands fa-instagram"></i> -->
+            <!-- <i class="fa-brands fa-dev"></i> -->
+          </div>
         </div>
-      </div>
-        <a href="cv.pdf" class="download-btn" download>Download CV</a>
+        <a data-aos="zoom-in" href="cv.pdf" class="download-btn" download
+          >Download CV</a
+        >
         <div class="brief-footer">
           <p>© 2024 All rights reserved.</p>
         </div>
       </div>
 
       <!-- Content Sections -->
-      <div class="content">'
+      <div class="content">
+        '
         <!-- ---Home section--- -->
         <section id="home" class="section active">
           <div class="section-container home-section">
@@ -83,7 +117,201 @@
         <!-- ---About Section--- -->
         <section id="about" class="section">
           <div class="section-container">
-            <div class="section-header">About <span class="text-primary">Me</span></div>
+            <h2 data-aos="zoom-in" class="section-header">
+              About <span class="text-primary">Me</span>
+            </h2>
+            <div data-aos="zoom-in" class="about-brief-container">
+              <div class="about-brief-text">
+                <p class="body-text">
+                  Proin volutpat mauris ac pellentesque pharetra. Suspendisse
+                  congue elit vel odio suscipit, sit amet tempor nisl imperdiet.
+                  Quisque ex justo, faucibus ut mi in, condimentum finibus
+                  dolor. Aliquam vitae hendrerit dolor, eget imperdiet mauris.
+                  Maecenas et ante id ipsum condimentum dictum et vel massa. Ut
+                  in imperdiet dolor, vel consectetur dui.
+                </p>
+              </div>
+              <div class="about-bio-info">
+                <div>
+                  <span class="body-text text-primary">Age</span
+                  ><span class="body-text">30</span>
+                </div>
+                <div>
+                  <span class="body-text text-primary">Residence</span
+                  ><span class="body-text">Ghana</span>
+                </div>
+                <div>
+                  <span class="body-text text-primary">Address</span
+                  ><span class="body-text">18 Mimosa St Dansoman</span>
+                </div>
+                <div>
+                  <span class="body-text text-primary">e-mail</span
+                  ><span class="body-text">albernartey824@gmail.com</span>
+                </div>
+                <div>
+                  <span class="body-text text-primary">phone</span
+                  ><span class="body-text">+233 240 298 910</span>
+                </div>
+              </div>
+            </div>
+
+            <h3 data-aos="zoom-in" class="section-sub-header">
+              What <span class="text-primary">I Do</span>
+            </h3>
+            <div data-aos="zoom-in" class="what-i-do">
+              <div class="what-i-do-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h4 class="section-card-header">Custom Web Development</h4>
+                <p class="body-text">
+                  Offer end-to-end web development services including design,
+                  development, and deployment.
+                </p>
+              </div>
+              <div class="what-i-do-card">
+                <i class="fa-solid fa-pen-nib"></i>
+                <h4 class="section-card-header">UI/UX</h4>
+                <p class="body-text">
+                  Pellentesque pellentesque, ipsum sit amet auctor accumsan,
+                  odio tortor bibendum massa, sit amet ultricies ex lectus
+                  scelerisque nibh. Ut non sodales.
+                </p>
+              </div>
+              <div class="what-i-do-card">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h4 class="section-card-header">
+                  Website Maintenance & Support
+                </h4>
+                <p class="body-text">
+                  Pellentesque pellentesque, ipsum sit amet auctor accumsan,
+                  odio tortor bibendum massa, sit amet ultricies ex lectus
+                  scelerisque nibh. Ut non sodales.
+                </p>
+              </div>
+              <div class="what-i-do-card">
+                <i class="fa-solid fa-diagram-project"></i>
+                <h4 class="section-card-header">Project Management</h4>
+                <p class="body-text">
+                  Pellentesque pellentesque, ipsum sit amet auctor accumsan,
+                  odio tortor bibendum massa, sit amet ultricies ex lectus
+                  scelerisque nibh. Ut non sodales.
+                </p>
+              </div>
+            </div>
+
+            <h3 class="section-sub-header">Testimonials</h3>
+
+            <div class="about-testimonials">
+              <div data-aos="fade-up" class="testimonial-card">
+                <div class="testifier-image">
+                  <img
+                    src="./assets/images/testimonials/testimonial-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="text-italics">
+                  Pellentesque pellentesque, ipsum sit amet auctor accumsan,
+                  odio tortor bibendum massa, sit amet ultricies ex lectus
+                  scelerisque nibh. Ut non sodales.
+                </p>
+                <div class="testifier-details">
+                  <div>
+                    <h5 class="sub-sub-header">Ron Williams</h5>
+                    <p class="text-small">Makomart</p>
+                  </div>
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+              <div data-aos="fade-up" class="testimonial-card">
+                <img
+                  src="./assets/images/testimonials/testimonial-3.jpg"
+                  alt=""
+                  class="testifier-image"
+                />
+                <p class="text-italics">
+                  Pellentesque pellentesque, ipsum sit amet auctor accumsan,
+                  odio tortor bibendum massa, sit amet ultricies ex lectus
+                  scelerisque nibh. Ut non sodales.
+                </p>
+                <div class="testifier-details">
+                  <div>
+                    <h5 class="sub-sub-header">Kofi Kumi</h5>
+                    <p class="text-small">Makomart</p>
+                  </div>
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="section-sub-header">Clients</h3>
+            <div class="about-clients">
+              <div class="client-logo">
+                <img src="./assets/images/logos/client-1.png" alt="" />
+              </div>
+              <div class="client-logo">
+                <img src="./assets/images/logos/client-2.png" alt="" />
+              </div>
+              <div class="client-logo">
+                <img src="./assets/images/logos/client-3.png" alt="" />
+              </div>
+              <div class="client-logo">
+                <img src="./assets/images/logos/client-4.png" alt="" />
+              </div>
+              <div class="client-logo">
+                <img src="./assets/images/logos/client-7.png" alt="" />
+              </div>
+            </div>
+
+            <h3 class="section-sub-header">Pricing</h3>
+            <div class="about-pricing">
+              <div class="card pricing-card">
+                <p class="body-text">Silver</p>
+                <div>
+                  <h1 class="pricing-card-header">$20</h1>
+                  <p class="text-small">per hour</p>
+                </div>
+                <button class="download-btn">Let's Work</button>
+
+                <div>
+                  <p class="body-text">Very affordable</p>
+                  <p class="body-text">Again, very affordable</p>
+                  <p class="body-text">Very affordable</p>
+                </div>
+              </div>
+              <div class="card pricing-card">
+                <p class="body-text">Silver</p>
+                <div>
+                  <h1 class="pricing-card-header">$800</h1>
+                  <p class="text-small">per month</p>
+                </div>
+                <button class="download-btn">Subscribe</button>
+                <div>
+                  <p class="body-text">Very affordable</p>
+                  <p class="body-text">Again, very affordable</p>
+                  <p class="body-text">Very affordable</p>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="section-sub-header">
+              Fun <span class="text-primary">Facts</span>
+            </h3>
+            <div class="fun-facts">
+              <div class="card fun-fact-card">
+                <i class="fa-regular fa-heart"></i>
+                <h5 class="sub-sub-header">Happy Clients</h5>
+                <h1 class="fun-fact-number">30</h1>
+              </div>
+              <div class="card fun-fact-card">
+                <i class="fa-regular fa-clock"></i>
+                <h5 class="sub-sub-header">Hours Worked</h5>
+                <h1 class="fun-fact-number">30</h1>
+              </div>
+              <div class="card fun-fact-card">
+                <i class="fa-regular fa-star"></i>
+                <h5 class="sub-sub-header">Awards Won</h5>
+                <h1 class="fun-fact-number">30</h1>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -97,18 +325,77 @@
         </section>
 
         <section id="contact" class="section">
-          <div class="section-container">Contact Content</div>
+          <div class="section-container">
+            <h2 class="section-header">Contact</h2>
+            <div class="contact-section-container">
+              <div class="contact-info">
+                <div class="contact-card contact-address">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h4 class="sub-sub-header">Dansoman, Accra</h4>
+                </div>
+                <div class="contact-card contact-phone">
+                  <i class="fa-solid fa-phone"></i>
+                  <h4 class="sub-sub-header">+233 240 298 910</h4>
+                </div>
+                <div class="contact-card contact-email">
+                  <i class="fa-solid fa-envelope"></i>
+                  <h4 class="sub-sub-header">albertnartey824@gmail.com</h4>
+                </div>
+                <div class="contact-card contact-status">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <h4 class="sub-sub-header">Freelance Available</h4>
+                </div>
+              </div>
+              <div class="send-message-section">
+                <iframe src="" frameborder="0"></iframe>
+                <h3 class="section-sub-header">
+                  How Can I <span class="text-primary">Help You?</span>
+                </h3>
+                <form action="">
+                  <div>
+                    <input type="text" placeholder="Full Name" />
+                    <input type="email" name="Email Address" id="" />
+                    <input type="text" name="" id="" placeholder="Subject" />
+                  </div>
+                  <textarea name="" id=""></textarea>
+                </form>
+              </div>
+            </div>
+          </div>
         </section>
-
-        <div id="arrow-buttons">
-          <a href="">
-            <img src="./assets/icons/arrow-up-icon.svg" alt="arrow-down-icon" />
-          </a>
-          <a href="">
-            <img src="./assets/icons/arrow-down-icon.svg" alt="arrow-down-icon"
-          /></a>
-        </div>
+      </div>
+      <div id="arrow-buttons">
+        <a href="">
+          <img src="./assets/icons/arrow-up-icon.svg" alt="arrow-down-icon" />
+        </a>
+        <a href="">
+          <img src="./assets/icons/arrow-down-icon.svg" alt="arrow-down-icon"
+        /></a>
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: "aos-init", // class applied after initialization
+        animatedClassName: "aos-animate", // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 100, // values from 0 to 3000, with step 50ms
+        duration: 600, // values from 0 to 3000, with step 50ms
+        easing: "ease", // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+      });
+    </script>
   </body>
 </html>
