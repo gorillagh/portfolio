@@ -16,6 +16,16 @@ body {
   overflow: hidden;
 }
 
+.text-primary{
+  color:#f49957;
+}
+.body-text{
+ font-family: "Poppins", Helvetica, sans-serif;
+font-size: 15px;
+font-weight: 400;
+color: rgb(213, 213, 213);
+}
+
 /* ----------Navigation Section--------------- */
 .navbar {
   width: 7%;
@@ -173,8 +183,6 @@ color: rgb(187, 187, 187);
   background-color: #444444;
 }
 
-
-
 .content {
   margin-left: 35%;
   width: 65%;
@@ -186,7 +194,7 @@ color: rgb(187, 187, 187);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23444444' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 .section-container {
-  padding: 1.2rem 1.2rem;
+  padding: 0rem 1.2rem;
   width: 100%;
 }
 
@@ -197,13 +205,17 @@ color: rgb(187, 187, 187);
   /* line-height: 74px; */
   color: rgb(245, 245, 245);
 }
-
 .section-header {
+ font-family: "Ubuntu", Helvetica, sans-serif;
+font-size: 32px;
+font-weight: 600;
+color: rgb(238, 238, 238);
 }
 .section-sub-header {
 }
 .section-card-header {
 }
+
 
 .section {
   display: none;
