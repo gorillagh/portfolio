@@ -4,42 +4,104 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/globals.css" />
     <script src="./index.js" defer></script>
   </head>
   <body>
     <div class="container">
       <!-- Vertical Navbar -->
       <nav class="navbar">
-        <ul>
-          <li><a href="#home" class="nav-link active">Home</a></li>
-          <li><a href="#about" class="nav-link">About Me</a></li>
-          <li><a href="#resume" class="nav-link">Resume</a></li>
-          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-          <li><a href="#blog" class="nav-link">Blog</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
+        <div class="nav-items">
+          <div class="nav-item">
+            <a href="#home"><i class="fa-solid fa-house"></i></a
+            ><a href="#home" class="nav-link active">Home</a>
+          </div>
+          <div class="nav-item">
+            <a href="#home"><i class="fa-solid fa-user"></i></a>
+            <a href="#about" class="nav-link">About Me</a>
+          </div>
+          <div class="nav-item">
+            <a href="#home"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#resume" class="nav-link">Resume</a>
+          </div>
+          <div class="nav-item">
+            <a href="#home"><i class="fa-solid fa-briefcase"></i></a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </div>
+        
+          <div class="nav-item">
+            <a href="#home"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+        </div>
       </nav>
 
       <!-- Brief Section -->
       <div class="brief">
-        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic" />
-        <h1>Albert Nartey</h1>
-        <p>Full Stack Developer</p>
-        <div class="socials">
-          <!-- Add social icons here -->
+        
+        <img src="./assets/images/profile.jpg" alt="Profile Picture" class="profile-pic" />
+        <div class="brief-text">
+        <h1 class="brief-title">Albert Narh Nartey</h1>
+        <h5 class="brief-description">Full Stack Developer</h5>
+        <div class="brief-socials">
+          <a href="/"><i class="fa-brands fa-stack-overflow"></i></a>
+          <a href="/"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="/"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="/"><i class="fa-brands fa-github"></i></a>
+          <!-- <i class="fa-brands fa-youtube"></i> -->
+          <!-- <i class="fa-brands fa-reddit"></i> -->
+          <!-- <i class="fa-brands fa-medium"></i> -->
+          <!-- <i class="fa-brands fa-instagram"></i> -->
+          <!-- <i class="fa-brands fa-dev"></i> -->
         </div>
+      </div>
         <a href="cv.pdf" class="download-btn" download>Download CV</a>
+        <div class="brief-footer">
+          <p>© 2024 All rights reserved.</p>
+        </div>
       </div>
 
-      <!-- Right Section -->
+      <!-- Content Sections -->
       <div class="content">
-        <section id="home" class="section">Home Content</section>
-        <section id="about" class="section">About Me Content</section>
-        <section id="resume" class="section">Resume Content</section>
-        <section id="portfolio" class="section">Portfolio Content</section>
-        <section id="blog" class="section">Blog Content</section>
-        <section id="contact" class="section">Contact Content</section>
+        <section id="home" class="section active">
+          <div class="section-container home-section">
+            <div class="home-text">
+              <h1 class="big-heading">Albert Narh Nartey</h1>
+              <h5>Full Stack Developer</h5>
+            </div>
+          </div>
+        </section>
+        <section id="about" class="section">
+          <div class="section-container">About Me Content</div>
+        </section>
+
+        <section id="resume" class="section">
+          <div class="section-container">Resume Content</div>
+        </section>
+
+        <section id="portfolio" class="section">
+          <div class="section-container">Portfolio Content</div>
+        </section>
+
+        <section id="contact" class="section">
+          <div class="section-container">Contact Content</div>
+        </section>
+
+        <div id="arrow-buttons">
+          <a href="">
+            <img src="./assets/icons/arrow-up-icon.svg" alt="arrow-down-icon" />
+          </a>
+          <a href="">
+            <img src="./assets/icons/arrow-down-icon.svg" alt="arrow-down-icon"
+          /></a>
+        </div>
       </div>
     </div>
   </body>

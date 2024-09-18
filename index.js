@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll(".nav-link");
+  const navIcons = document.querySelectorAll(".nav-icon");
   const sections = document.querySelectorAll(".section");
 
   navLinks.forEach((link) => {

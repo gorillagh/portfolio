@@ -10,6 +10,16 @@ colors:
 primary: #F97316 or #04B4E0 (light- #0D86A4)
 background: dark / #000
 
+title font: Ubuntu
+bodyfont: poppins
+
+primary orange light: #f49957
+
+navbar background: #222222
+brief section backgroun: #444444
+content section background: #222222
+
+
 icons:
 linearicons.com
 materialicons
