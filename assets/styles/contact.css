@@ -30,3 +30,43 @@
   font-size: 30px;
   overflow: hidden;
 }
+
+.send-message-section iframe{
+  width: 100%;
+}
+
+.send-message-section h3{
+  margin-top: 20px;
+}
+.message-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}
+.message-form div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.message-form input, .message-form textarea{
+  width: 100%;
+  border: 2px solid #999999;
+  border-radius: 5px;
+  padding: 10px 10px;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(177, 177, 177);
+}
+
+.message-form input:focus, .message-form textarea:focus{
+  outline: #f5af7e !important;
+}
+
+.message-form button{
+  width: 70%;
+  margin-top: 20px;
+}
