@@ -19,18 +19,21 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  /* row-gap: 10px; */
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   position: relative;
+  /* max-height: 200px; */
 }
 .work-card img {
   width: 100%;
-  /* object-fit: contain; */
+
+  object-fit: cover;
 }
 
-.work-card h5 {
+.work-card h5, .work-card p {
   text-align: center;
+  
 }
 
 .work-description {
@@ -48,9 +51,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 10px;
   opacity: 0;
   transition: opacity 0.3s ease;
   cursor: pointer;
+  padding: 0 2rem;
 }
 
 .work-card:hover .work-description {
