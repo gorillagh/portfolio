@@ -21,6 +21,38 @@ document.addEventListener("DOMContentLoaded", function () {
       // Show the target section
       const targetSection = document.getElementById(targetId);
       targetSection.classList.add("active");
+
+      //scroll to top
     });
   });
+
+  const roles = [
+    "Full Stack Developer",
+    "UI/UX Designer",
+    "Web Developer",
+    "Mobile App Developer",
+  ];
+  let roleIndex = 0;
+  const textElement = document.getElementById("changing-text");
+
+  function changeRole() {
+    // Fade out the current text
+    gsap.to(textElement, {
+      opacity: 0,
+      duration: 1,
+      onComplete: () => {
+        // Once faded out, change the text
+        textElement.textContent = roles[roleIndex];
+        roleIndex = (roleIndex + 1) % roles.length; // Cycle through roles
+        // Fade in the new text
+        gsap.to(textElement, { opacity: 1, duration: 1 });
+      },
+    });
+  }
+
+  // Call changeRole every 3 seconds to rotate the roles
+  setInterval(changeRole, 3000);
+
+  // Start the first role change
+  changeRole();
 });

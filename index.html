@@ -41,6 +41,8 @@
     <link rel="stylesheet" href="./assets/styles/contact.css" />
     <link rel="stylesheet" href="./assets/styles/portfolio.css" />
     <link rel="stylesheet" href="./assets/styles/resume.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+
     <script src="./index.js" defer></script>
   </head>
   <body>
@@ -82,7 +84,7 @@
         />
         <div data-aos="zoom-in" class="brief-text">
           <h1 class="brief-title">Albert Narh Nartey</h1>
-          <h5 class="brief-description">Full Stack Developer</h5>
+          <h5 class="brief-description">Software Engineer</h5>
           <div class="brief-socials">
             <a href="/"><i class="fa-brands fa-stack-overflow"></i></a>
             <a href="/"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -105,13 +107,12 @@
 
       <!-- Content Sections -->
       <div class="content">
-        '
         <!-- ---Home section--- -->
         <section id="home" class="section active">
           <div class="section-container home-section">
             <div class="home-text">
               <h1 class="big-heading">Albert Narh Nartey</h1>
-              <h5>Full Stack Developer</h5>
+              <h5 id="changing-text">Full Stack Developer</h5>
             </div>
           </div>
         </section>
@@ -340,19 +341,196 @@
               <div class="resume-part1">
                 <div class="education-container">
                   <h3 class="section-sub-header">Education</h3>
+                  <div class="timeline">
+                    <div class="timeline-item">
+                      <div class="timeline-date">
+                        <p class="text-small date">2017 &#45; 2021</p>
+                        <p class="text-small">University of Ghana</p>
+                      </div>
+                      <div class="timeline-content">
+                        <h3 class="sub-sub-header">Bsc Computer Science</h3>
+                        <p class="body-text">
+                          Maecenas finibus nec sem ut imperdiet. Ut tincidunt
+                          est ac dolor aliquam sodales. Phasellus.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <div class="timeline-date">
+                        <p class="text-small date">2022 &#45; 2024</p>
+                        <p class="text-small">University of Studies</p>
+                      </div>
+                      <div class="timeline-content">
+                        <h3 class="sub-sub-header">Software Engineering</h3>
+                        <p class="body-text">
+                          Aliquam tincidunt malesuada tortor vitae iaculis. In
+                          eu turpis iaculis, feugiat risus quis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="experience-container">
                   <h3 class="section-sub-header">Experience</h3>
+                  <div class="timeline">
+                    <div class="timeline-item">
+                      <div class="timeline-date">
+                        <p class="text-small date">2017 &#45; current</p>
+                        <p class="text-small">Google</p>
+                      </div>
+                      <div class="timeline-content">
+                        <h3 class="sub-sub-header">Backend Engineer</h3>
+                        <p class="body-text">
+                          Maecenas finibus nec sem ut imperdiet. Ut tincidunt
+                          est ac dolor aliquam sodales. Phasellus.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <div class="timeline-date">
+                        <p class="text-small date">2014 &#45; 2017</p>
+                        <p class="text-small">Mest Africa</p>
+                      </div>
+                      <div class="timeline-content">
+                        <h3 class="sub-sub-header">Software Engineering</h3>
+                        <p class="body-text">
+                          Aliquam tincidunt malesuada tortor vitae iaculis. In
+                          eu turpis iaculis, feugiat risus quis.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <div class="timeline-date">
+                        <p class="text-small date">2009 &#45; 2014</p>
+                        <p class="text-small">Hubtel</p>
+                      </div>
+                      <div class="timeline-content">
+                        <h3 class="sub-sub-header">Junior UI/UX Designer</h3>
+                        <p class="body-text">
+                          Aliquam tincidunt malesuada tortor vitae iaculis. In
+                          eu turpis iaculis, feugiat risus quis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="resume-part2"></div>
+              <div class="resume-part2">
+                <div class="design-skills-container">
+                  <h3 class="section-sub-header">
+                    Programming <span class="text-primary">Languages</span>
+                  </h3>
+                  <div class="skills">
+                    <div class="skill-card">
+                      <div class="skill-title">
+                        <p class="sub-sub-header">JavaScript</p>
+                        <p class="text-small">95%</p>
+                      </div>
+                      <div class="progress-bar">
+                        <div class="progress js"></div>
+                      </div>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-title">
+                        <p class="sub-sub-header">Python</p>
+                        <p class="text-small">80%</p>
+                      </div>
+                      <div class="progress-bar">
+                        <div class="progress python"></div>
+                      </div>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-title">
+                        <p class="sub-sub-header">React</p>
+                        <p class="text-small">95%</p>
+                      </div>
+                      <div class="progress-bar">
+                        <div class="progress react"></div>
+                      </div>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-title">
+                        <p class="sub-sub-header">JavaScript</p>
+                        <p class="text-small">95%</p>
+                      </div>
+                      <div class="progress-bar">
+                        <div class="progress"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frameworks-container">
+                  <h3 class="section-sub-header">
+                    Development <span class="text-primary">Frameworks</span>
+                  </h3>
+                  <div class="skills">
+                    <div class="skill-card">
+                      <div class="skill-title">
+                        <p class="sub-sub-header">JavaScript</p>
+                        <p class="text-small">95%</p>
+                      </div>
+                      <div class="progress-bar">
+                        <div class="progress js"></div>
+                      </div>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-title">
+                        <p class="sub-sub-header">Python</p>
+                        <p class="text-small">80%</p>
+                      </div>
+                      <div class="progress-bar">
+                        <div class="progress python"></div>
+                      </div>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-title">
+                        <p class="sub-sub-header">React</p>
+                        <p class="text-small">95%</p>
+                      </div>
+                      <div class="progress-bar">
+                        <div class="progress react"></div>
+                      </div>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-title">
+                        <p class="sub-sub-header">JavaScript</p>
+                        <p class="text-small">95%</p>
+                      </div>
+                      <div class="progress-bar">
+                        <div class="progress"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="soft-skills-container">
+                  <h3 class="section-sub-header">
+                    Other <span class="text-primary">Skills</span>
+                  </h3>
+                  <div class="other-skills">
+                    <div class="other-skill">
+                      <p class="text-small">Problem Solving</p>
+                    </div>
+                    <div class="other-skill">
+                      <p class="text-small">Detail Oriented</p>
+                    </div>
+                    <div class="other-skill">
+                      <p class="text-small">Time Management</p>
+                    </div>
+                    <div class="other-skill">
+                      <p class="text-small">Communication</p>
+                    </div>
+                    <div class="other-skill">
+                      <p class="text-small">Team Work</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-
             <h4 class="section-sub-header">Certificates</h4>
             <div class="certificates">
               <div class="certificate-card">
                 <div class="institution-image">
-                  <img src="./assets/images/logos/us.svg" alt="">
+                  <img src="./assets/images/logos/us.svg" alt="" />
                 </div>
                 <div class="certificate-details">
                   <h5 class="section-card-header">BSc Computer Science</h5>
@@ -362,7 +540,7 @@
               </div>
               <div class="certificate-card">
                 <div class="institution-image">
-                  <img src="./assets/images/logos/mest.png" alt="">
+                  <img src="./assets/images/logos/mest.png" alt="" />
                 </div>
                 <div class="certificate-details">
                   <h5 class="section-card-header">Web Developer</h5>
@@ -439,8 +617,8 @@
               </div>
               <div class="work-card">
                 <div class="work-image">
-                  <img src="./assets/images/portfolio/work1.png" alt="work6" />
-                  <h4 class="sub-sub-header">First Work</h4>
+                  <img src="./assets/images/portfolio/work1.png" alt="work5" />
+                  <h5 class="sub-sub-header">First Work</h5>
                 </div>
                 <div class="work-description">
                   <h4 class="sub-sub-header">Work 1</h4>
@@ -451,6 +629,7 @@
           </div>
         </section>
 
+        <!-- ------Contact Section----- -->
         <section id="contact" class="section">
           <div class="section-container">
             <h2 class="section-header">Contact</h2>
@@ -508,6 +687,7 @@
           </div>
         </section>
       </div>
+      <!-- -----Navigation Arrows---- -->
       <div id="arrow-buttons">
         <a href="">
           <img src="./assets/icons/arrow-up-icon.svg" alt="arrow-down-icon" />
@@ -519,6 +699,8 @@
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- -----AOS Script---- -->
     <script>
       AOS.init({
         // Global settings:
