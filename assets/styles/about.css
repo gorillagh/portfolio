@@ -54,9 +54,9 @@
 }
 .testifier-image {
   position: absolute;
-  top: -50px; 
+  top: -50px;
   left: 50%;
-  transform: translateX(-50%); 
+  transform: translateX(-50%);
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -167,4 +167,26 @@
   font-size: 36px;
   font-weight: 400;
   color: rgb(170, 170, 170);
+}
+
+/* --------------Media queries---------------------- */
+/* Mobile devices (up to 576px) */
+@media (max-width: 576px) {
+  /* Styles for small mobile devices */
+}
+/* Small tablets and large phones (between 576px and 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Styles for large phones or small tablets */
+}
+/* Tablets and small laptops (between 768px and 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Styles for tablets or small laptops */
+}
+/* Laptops and desktops (between 992px and 1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* Styles for laptops and desktops */
+}
+/* Large desktops (above 1200px) */
+@media (min-width: 1201px) {
+  /* Styles for large desktops */
 }
