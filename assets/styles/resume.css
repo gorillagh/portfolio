@@ -137,11 +137,23 @@
 .react {
   width: 95%;
 }
-.python,
-.angular {
-  width: 80%;
+.vue{
+  
 }
 
+.python,
+.java{
+  width: 70%;
+}
+.swift{
+  width: 50%;
+}
+.vue{
+  width: 65%;
+}
+.nextjs{
+  width: 80%;
+}
 .other-skills {
   display: flex;
   gap: 10px;
